@@ -241,8 +241,19 @@ html {
 }
 
 @media screen and (max-width: 768px) {
+  .wrapper {
+    overflow: hidden;
+  }
+
+  .header-bg {
+    position: fixed;
+    width: 90%;
+    top: 0;
+    z-index: 99999;
+  }
+
   .about {
-    margin-top: 20px;
+    margin-top: 180px;
     padding: 20px;
     box-sizing: border-box;
 
@@ -266,6 +277,7 @@ html {
     box-sizing: border-box;
 
     &-block {
+      margin-top: 20px;
 
       &-desc {
         font-size: 16px;
@@ -327,7 +339,21 @@ html {
       width: 20px;
     }
   }
+  .footer{
+    font-style: 16px;
+  }
+  .contacts {
+    padding: 20px;
 
+    box-sizing: border-box;
+    & div{
+      & a{
+        & img{
+          width: 16px;
+        }
+      }
+    }
+  }
 
   .title-number {
     font-size: 20px;

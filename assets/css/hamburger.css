@@ -74,7 +74,7 @@
     transition: .6s all;
     max-height: 0;
     position: absolute;
-    top: 124px;
+    top: 70px;
     overflow: hidden;
     left: 0;
     right: 0;
@@ -87,7 +87,7 @@
   }
 
   .nav__collapse.is-active {
-    box-shadow: inset 0px 8px 6px -4px black;
+    box-shadow: inset 0px 8px 6px -4px rgba(0, 0, 0, 0.67);
     border-bottom: 1px solid black;
     max-height: 800px;
     padding-top: 50px;

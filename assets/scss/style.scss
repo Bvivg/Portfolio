@@ -113,7 +113,10 @@ html {
         grid-template-columns: 1fr 1fr;
 
         a {
-          font-size: 20px;
+          align-items: center;
+          display: flex;
+          gap: 5px;
+          font-size: 14px;
           transition: .4s all;
 
           &:hover {

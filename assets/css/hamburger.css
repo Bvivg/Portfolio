@@ -76,6 +76,7 @@
     position: absolute;
     top: 70px;
     overflow: hidden;
+    font-size: 20px;
     left: 0;
     right: 0;
     padding: 0 40px;
@@ -100,11 +101,13 @@
   }
 
   .nav {
+    font-size: 20px;
     margin-left: 0 !important;
     flex-direction: column;
   }
 
   .nav a {
+    font-size: 20px;
     text-align: center;
   }
 }

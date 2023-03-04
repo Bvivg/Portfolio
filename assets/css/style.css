@@ -107,7 +107,10 @@ html {
   grid-template-columns: 1fr 1fr;
 }
 .skills-block-desc-links a {
-  font-size: 20px;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
   transition: 0.4s all;
 }
 .skills-block-desc-links a:hover {
